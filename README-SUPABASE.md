@@ -9,10 +9,15 @@ Este proyecto está configurado para usar Supabase como base de datos.
 Crea un archivo `.env.local` en la raíz del proyecto con el siguiente contenido:
 
 ```env
-NEXT_PUBLIC_SUPABASE_URL=https://wimnaebmhyoghtxompdu.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_sd61lZMRU63Qwc-gMX1b5w_DAgvpN4G
-SUPABASE_SERVICE_ROLE_KEY=sb_secret_cAtCvaw8FpAX5XfO-MfnHQ_b6nYhp4v
+NEXT_PUBLIC_SUPABASE_URL=tu_url_de_supabase_aqui
+NEXT_PUBLIC_SUPABASE_ANON_KEY=tu_anon_key_de_supabase_aqui
+SUPABASE_SERVICE_ROLE_KEY=tu_service_role_key_aqui
 ```
+
+**Obtén estas credenciales de:**
+1. Ve a tu proyecto en Supabase: https://supabase.com/dashboard
+2. Settings → API
+3. Copia "Project URL", "anon/public key" y "service_role key"
 
 ### 2. Ejecutar el script SQL en Supabase
 
